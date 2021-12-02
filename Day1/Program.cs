@@ -1,4 +1,6 @@
-﻿var measurements = File.ReadAllText("input")
+﻿// https://adventofcode.com/2021/day/1
+
+var measurements = File.ReadAllText("input")
   .Split('\n')
   .ToList()
   .FindAll(line => !string.IsNullOrWhiteSpace(line))
